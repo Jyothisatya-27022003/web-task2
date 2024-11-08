@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Living</title>
+    <link rel="stylesheet" href="Task 2.css">
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <script src="Task 2.js"></script>
+</head>
+
+<body>
+    <!-- Welcome Section -->
+    <header>
+
+        <img src="logo.jpg" alt="Eco-Friendly" class="logo" width="100" height="100">
+        <!-- Adjusted size for better layout -->
+        <div class="header-text">
+            <h1>Eco-Friendly Living</h1>
+            <p>Make a Positive Impact on the Planet</p>
+        </div>
+        <nav>
+            <a href="#tips">TIPS</a>
+            <a href="#resources">RESOURCES</a>
+            <a href="#cta">PLEDGE</a>
+            <a href="#gallery">Image Gallery</a>
+            <a href="#to-do-list">To-Do-List</a>
+            <a href="#foot">LOGIN</a>
+        </nav>
+    </header>
+
+    <!-- Lifestyle Tips Section -->
+    <section id="tips">
+        <h2>Tips for Eco-Friendly Living</h2>
+        <div class="tip">
+            <img src="1.jpeg" alt="Reduce Plastic Use">
+            <p>Reduce plastic usage by opting for reusable bags, bottles, and containers.</p>
+        </div>
+        <div class="tip">
+            <img src="2.png" alt="Recycle">
+            <p>Recycle items whenever possible to help reduce waste.</p>
+        </div>
+        <div class="tip">
+            <img src="3.jpg" alt="Conserve Water">
+            <p>Conserve water by taking shorter showers and fixing leaks promptly.</p>
+        </div>
+        <div class="tip">
+            <img src="4.jpg" alt="Use Energy-Efficient Appliances">
+            <p>Use energy-efficient appliances to save electricity and reduce emissions.</p>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Useful Resources</h2>
+        <ul>
+            <li><a href="https://www.earthday.org/" target="_blank">Earth Day Organization</a></li>
+            <li><a href="https://www.worldwildlife.org/" target="_blank">World Wildlife Fund</a></li>
+            <li><a href="https://www.epa.gov/" target="_blank">Environmental Protection Agency</a></li>
+        </ul>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="cta">
+        <h2>Ready to Make a Difference?</h2>
+        <button onclick="showMotivation()">Take the Eco-Friendly Pledge</button>
+    </section>
+
+
+    <section id="gallery">
+        <h2>Eco-Friendly Image Gallery</h2>
+        <div class="gallery">
+            <img src="5" alt="Nature Conservation" class="gallery-img" width="200" height="150">
+            <img src="6.jpg" alt="Recycling Efforts" class="gallery-img" width="200" height="150">
+            <img src="7" alt="Clean Energy" class="gallery-img" width="200" height="150">
+            <img src="8.jpg" alt="Sustainable Agriculture" class="gallery-img" width="200" height="150">
+            <img src="9.jpg" alt="Sustainable Agriculture" class="gallery-img" width="200" height="150">
+            <img src="10.jpg" alt="Sustainable Agriculture" class="gallery-img" width="200" height="150">
+            <img src="11.jpg" alt="Sustainable Agriculture" class="gallery-img" width="200" height="150">
+        </div>
+    </section>
+
+
+
+
+    <!-- To-Do List Section -->
+    <section id="to-do-list">
+        <h2>To-Do List</h2>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Enter a new task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="task-list">
+            <!-- Tasks will be added dynamically here -->
+        </ul>
+    </section>
+
+
+
+    <!-- Image Gallery Section -->
+    <section id="image-gallery">
+        <h2>Image Gallery</h2>
+        <div id="gallery-container">
+            <!-- Images will be added dynamically here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="image-url" placeholder="Enter image URL">
+            <button onclick="addImage()">Add Image</button>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="foot">
+        <div class="footer">
+            <h2>LOGIN</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name!" style="color: rgb(4, 51, 24);" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your e-mail" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="text" id="password" placeholder="Enter your password!" required>
+                <br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" placeholder="Enter your address!" required>
+                <br>
+                <button type="submit" style="align-items: center;">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <script src="Task 2.js"></script>
+
+</body>
+
+</html>
